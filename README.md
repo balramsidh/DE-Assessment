@@ -13,6 +13,8 @@
 
 requires following variables:
 
+**[Token]**
+
 *it is required since twitter api needs authentication*
 
 consumer_key = 
@@ -24,28 +26,28 @@ access_token_key =
 access_token_secret = 
 
 
+**[Tweet]**
 
 *User timelines belonging to protected users may only be requested when the authenticated user either “owns” the timeline or is an approved follower of the owner.*
-
-[Tweet]
 
 screen_name = realself
 
 tweet_count = 100
 
-[Search]
+
+**[Search]**
 
 *can enter multiple keywords separated by space*
-
 
 search_keywords = seattle airport
 
 search_count = 100
 
 
-*any name with .json extension*
 
-[Json]
+**[Json]**
+
+*any name with .json extension*
 
 File_Name = hundredmostrecenttweets.json
 
@@ -57,3 +59,4 @@ This script will run for any flavor of SQL.
 ## Q3 Looker
 
 The ER diagram shows relationships between tables. 
+
