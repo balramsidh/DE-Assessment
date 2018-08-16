@@ -1,5 +1,5 @@
 # realself
-# Assessment for BI engineer
+# Assessment for Data Engineer
 
 ## Python script
 
