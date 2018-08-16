@@ -3,6 +3,14 @@
 
 ## Python script
 
+
+`Write a single python script (preferably python 3) that does two things:
+Uses the Twitter user timeline API and writes @realself’s most recent 100 tweets to a newline-delimited JSON file in the current working directory where each line is a JSON dict containing the details for a single tweet.
+Note: The file as a whole will not parse as valid JSON, but each individual line should.
+Uses the Twitter search API for “#Seattle” and prints to the screen a list of distinct hashtags (case-insensitive, please) appearing in first 100 results the API returns and the number of times each hashtag appears.
+`
+
+
 **usage:**
 
   mac: ./realself.py config.ini
